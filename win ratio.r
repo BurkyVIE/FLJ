@@ -9,7 +9,7 @@ data <- standings |>
 
 # PLOT ----
 ggplot(data) +
-  aes(x = EWR, y = Pct) +
+  aes(x = Pct, y = EWR) +
   geom_abline(slope = 1, intercept = 0, linetype = "solid") +
   geom_point(mapping = aes(color = Delta * 10), size = 12) +
   ggimage::geom_image(inherit.aes = TRUE, image = "fb_32.png", size = .03) +
