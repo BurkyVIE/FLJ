@@ -11,7 +11,7 @@ data <- standings |>
 ggplot(data) +
   aes(x = Pct, y = EWR) +
   geom_abline(slope = 1, intercept = 0, linetype = "solid") +
-  geom_point(mapping = aes(color = Delta * 10), size = 12) +
+  geom_point(mapping = aes(color = Delta * 10), shape = 16, size = 13) +
   ggimage::geom_image(inherit.aes = TRUE, image = "fb_32.png", size = .03) +
   ggrepel::geom_label_repel(mapping = aes(label = Kurz), segment.linetype = 2,
                             box.padding = 1.25, label.padding = unit(.2, "lines"), point.padding = .25,
