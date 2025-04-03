@@ -3,7 +3,7 @@ library(tidyverse)
 
 # DATA ----
 ## Import ----
-data_raw <- read_csv("2025 FLJ U13.txt", lazy = FALSE,
+data_raw <- read_csv("FLJ 2025 U13 D1.txt", lazy = FALSE,
                      col_types = cols(Datum = col_date(),
                                       Kickoff = col_time(),
                                       Ort = col_character(),
