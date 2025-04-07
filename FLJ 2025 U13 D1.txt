@@ -10,22 +10,22 @@ Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
 2025-03-30,15:00,American Football Zentrum Innsbruck,Weinviertel Spartans,Dark Angels,0,49
 2025-03-30,15:00,American Football Zentrum Innsbruck,Swarco Raiders, Klosterneuburg Indians,20,36
 2025-03-30,16:15,American Football Zentrum Innsbruck,Weinviertel Spartans,Klosterneuburg Indians,0,40
-2025-04-06,10:00,Mistelbach-Sprotzentrum,Weinviertel Spartans,Thalheim Graz Giants,,
-2025-04-06,10:00,Mistelbach-Sprotzentrum,Pannonian Eagles,Swarco Raiders,,
-2025-04-06,11:15,Mistelbach-Sprotzentrum,Pannonian Eagles,Weinviertel Spartans,,
-2025-04-06,11:15,Mistelbach-Sprotzentrum,Swarco Raiders,Thalheim Graz Giants,,
-2025-04-06,12:30,Mistelbach-Sprotzentrum,Steelsharks Traun,Danube Dragons,,
-2025-04-06,12:30,Mistelbach-Sprotzentrum,Dark Angels,Klosterneuburg Indians,,
-2025-04-06,13:45,Mistelbach-Sprotzentrum,Weinviertel Spartans,Swarco Raiders,,
-2025-04-06,13:45,Mistelbach-Sprotzentrum,Pannonian Eagles,Thalheim Graz Giants,,
-2025-04-06,15:00,Mistelbach-Sprotzentrum,Klosterneuburg Indians,Danube Dragons,,
-2025-04-06,15:00,Mistelbach-Sprotzentrum,Steelsharks Traun,Dark Angels,,
-2025-04-06,16:15,Mistelbach-Sprotzentrum,Dark Angels,Danube Dragons,,
-2025-04-06,16:15,Mistelbach-Sprotzentrum,Steelsharks Traun,Klosterneuburg Indians,,
+2025-04-06,10:00,Mistelbach-Sprotzentrum,Weinviertel Spartans,Thalheim Graz Giants,0,40
+2025-04-06,10:00,Mistelbach-Sprotzentrum,Pannonian Eagles,Swarco Raiders,6,28
+2025-04-06,11:15,Mistelbach-Sprotzentrum,Pannonian Eagles,Weinviertel Spartans,14,0
+2025-04-06,11:15,Mistelbach-Sprotzentrum,Swarco Raiders,Thalheim Graz Giants,14,26
+2025-04-06,12:30,Mistelbach-Sprotzentrum,Steelsharks Traun,Danube Dragons,0,19
+2025-04-06,12:30,Mistelbach-Sprotzentrum,Dark Angels,Klosterneuburg Indians,13,14
+2025-04-06,13:45,Mistelbach-Sprotzentrum,Weinviertel Spartans,Swarco Raiders,0,34
+2025-04-06,13:45,Mistelbach-Sprotzentrum,Pannonian Eagles,Thalheim Graz Giants,0,31
+2025-04-06,15:00,Mistelbach-Sprotzentrum,Klosterneuburg Indians,Danube Dragons,26,0
+2025-04-06,15:00,Mistelbach-Sprotzentrum,Steelsharks Traun,Dark Angels,7,46
+2025-04-06,16:15,Mistelbach-Sprotzentrum,Dark Angels,Danube Dragons,33,7
+2025-04-06,16:15,Mistelbach-Sprotzentrum,Steelsharks Traun,Klosterneuburg Indians,14,42
 2025-04-12,10:00,ASKÖ Stadion Eggenberg,Weinviertel Spartans,Danube Dragons,,
 2025-04-12,11:15,ASKÖ Stadion Eggenberg,Danube Dragons,Klosterneuburg Indians,,
 2025-04-12,11:15,ASKÖ Stadion Eggenberg,Weinviertel Spartans,Steelsharks Traun,,
-2025-04-12,12:30,ASKÖ Stadion Eggenberg,Klosterneuburg Indians, Pannonia Eagles,,
+2025-04-12,12:30,ASKÖ Stadion Eggenberg,Klosterneuburg Indians, Pannonian Eagles,,
 2025-04-12,12:30,ASKÖ Stadion Eggenberg,Dark Angels,Thalheim Graz Giants,,
 2025-04-12,13:45,ASKÖ Stadion Eggenberg,Dark Angels,Steelsharks Traun,,
 2025-04-12,13:45,ASKÖ Stadion Eggenberg,Swarco Raiders,Weinviertel Spartans,,
