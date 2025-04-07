@@ -30,7 +30,8 @@ results <- bind_rows(rename(games, Team = Heim, Gegner = Gast, PF = P_H, PG = P_
   mutate(Ergebnis = factor(case_when(PF > PG ~ "W",
                                      PF < PG ~ "L",
                                      TRUE ~ "T"),
-                           levels = c("W", "L", "T")))
+                           levels = c("W", "L", "T"))) |> 
+  arrange(Datum, Kickoff)
 
 ## Standings ----
 standings <- results |> 
