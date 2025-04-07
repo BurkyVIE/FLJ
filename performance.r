@@ -26,9 +26,10 @@ ggplot(data) +
                             color = "grey50", size = 3) +
   ggimage::geom_image(data, inherit.aes = TRUE, mapping = aes(image = Logo), size = .07) +
   # ENDE
-  scale_x_continuous(name = "Punktedifferenz", breaks = function(x) seq(from = floor(x[1]/30)*30, to = ceiling(x[2]/30)*30, by = 30)) +
-  scale_y_continuous(name = "Differenz (Siege - Niederlagen)", breaks = function(x) seq(from = floor(x[1]/2)*2, to = ceiling(x[2]/2)*2, by = 2),
-                     minor_breaks = function(x) seq(from = floor(x[1]), to = ceiling(x[2]), by = 1)) +
+  # scale_x_continuous(name = "Punktedifferenz", breaks = function(x) seq(from = floor(x[1]/100)*100, to = ceiling(x[2]/100)*100, by = 100)) +
+  scale_x_continuous(name = "Punktedifferenz") +
+  # scale_y_continuous(name = "Differenz (Siege - Niederlagen)", breaks = function(x) seq(from = floor(x[1]/2)*2, to = ceiling(x[2]/2)*2, by = 2),
+  scale_y_continuous(name = "Differenz (Siege - Niederlagen)") +
   labs(title = "Tabelle grafisch", 
        subtitle = "2025 FLJ U13 Division I") +
   theme(plot.title = element_text(size = 16),

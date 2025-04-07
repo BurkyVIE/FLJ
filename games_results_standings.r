@@ -34,8 +34,9 @@ results <- bind_rows(rename(games, Team = Heim, Gegner = Gast, PF = P_H, PG = P_
 
 ## Standings ----
 standings <- select(results, c(Team, PF, PG, Ergebnis)) |>
-  mutate(one = 1L) |> 
-  pivot_wider(names_from = Ergebnis, values_from = one, names_expand = TRUE, values_fill = list(one = 0)) |> 
+  mutate(tmp_id = row_number(), # notwendig um doppelt gleiche Ergebnisse durch 'pivot_wider' nicht zu verlieren
+         one = 1L) |> 
+  pivot_wider(names_from = Ergebnis, values_from = one, names_expand = TRUE, values_fill = list(one = 0L)) |> 
   group_by(Team) |>
   summarise(across(c(PF, PG, W, L, T), ~sum(.))) |>
   ungroup() |> 
