@@ -3,7 +3,8 @@ library(tidyverse)
 
 # DATA ----
 data <- standings |> 
-  left_join(teams, by = "Team") |> 
+  filter(Saison == 2025, Stufe == "U13", Div == "D1") |> 
+  left_join(teams, by = c("Saison", "Stufe", "Div", "Team")) |> 
   mutate(EWR = 1 / (1 + (PG / PF) ** 2.37),
          Delta = (as.numeric(Pct) - EWR))
 
@@ -21,7 +22,7 @@ ggplot(data) +
   scale_color_distiller(name = "Overwinning\npro 10 Spiele", palette = "RdBu", direction = -1, values = scales::rescale(c(range(data$Delta), 0)[c(1, 3, 2)])) +
   labs(title = "Wahre und erwartete Win Ratio",
        subtitle = "2025 FLJ U13 Division I") +
-  coord_fixed(xlim = c(0, 1), ylim = c(0, 1)) +
+  # coord_fixed(xlim = c(0, 1), ylim = c(0, 1)) +
   theme(plot.title = element_text(size = 16),
         plot.subtitle = element_text(size = 13),
         panel.background = element_rect(fill = "lightgreen"),

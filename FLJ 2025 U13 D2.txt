@@ -1,0 +1,57 @@
+Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
+2025-04-06,10:00,Sportplatz Schwadorf,Vienna Vipers,Vienna Vikings,13,20
+2025-04-06,11:15,Sportplatz Schwadorf,Carinthian Eagles,Vienna Vipers,19,12
+2025-04-06,11:15,Sportplatz Schwadorf,Vienna Vikings,Münchendorf Badgers,14,18
+2025-04-06,12:30,Sportplatz Schwadorf,Münchendorf Badgers,SG Mostviertel Bastards/Blue Hawks,51,26
+2025-04-06,12:30,Sportplatz Schwadorf,Vienna Knights,Carinthian Eagles,0,40
+2025-04-06,13:45,Sportplatz Schwadorf,Carnuntum Legionaries,Vienna Vikings,24,18
+2025-04-06,13:45,Sportplatz Schwadorf,Vienna Vipers,St. Pölten Invaders,0,33
+2025-04-06,15:00,Sportplatz Schwadorf,Vienna Knights,SG Mostviertel Bastards/Blue Hawks,20,18
+2025-04-06,15:00,Sportplatz Schwadorf,Carinthian Eagles,Münchendorf Badgers,26,0
+2025-04-06,16:15,Sportplatz Schwadorf,Vienna Knights,Carnuntum Legionaries,6,26
+2025-04-06,16:15,Sportplatz Schwadorf,SG Mostviertel Bastards/Blue Hawks,St. Pölten Invaders,0,48
+2025-04-06,17:00,Sportplatz Schwadorf,St. Pölten Invaders,Carnuntum Legionaries,7,0
+2025-04-12,10:00,Schwechat,Carnuntum Legionaries,Vienna Vipers,,
+2025-04-12,10:00,Schwechat,St. Pölten Invaders,Vienna Knights,,
+2025-04-12,11:15,Schwechat,Münchendorf Badgers,Vienna Vikings,,
+2025-04-12,11:15,Schwechat,Carnuntum Legionaries,Vienna Knights,,
+2025-04-12,12:30,Schwechat,Vienna Vipers,Münchendorf Badgers,,
+2025-04-12,12:30,Schwechat,Carinthian Eagles,St. Pölten Invaders,,
+2025-04-12,13:45,Schwechat,Vienna Vipers,Vienna Knights,,
+2025-04-12,13:45,Schwechat,St. Pölten Invaders,Vienna Vikings,,
+2025-04-12,15:00,Schwechat,Münchendorf Badgers,Carinthian Eagles,,
+2025-04-12,15:00,Schwechat,Vienna Vikings,SG Mostviertel Bastards/Blue Hawks,,
+2025-04-12,16:15,Schwechat,Carinthian Eagles,SG Mostviertel Bastards/Blue Hawks,,
+2025-05-01,12:00,Football-Zentrum Ravelin,Carnuntum Legionaries,Münchendorf Badgers,,
+2025-05-01,13:15,Football-Zentrum Ravelin,Münchendorf Badgers,Vienna Knights,,
+2025-05-01,13:15,Football-Zentrum Ravelin,SG Mostviertel Bastards/Blue Hawks,Vienna Vipers,,
+2025-05-01,14:30,Football-Zentrum Ravelin,Vienna Knights,Vienna Vipers,,
+2025-05-01,14:30,Football-Zentrum Ravelin,SG Mostviertel Bastards/Blue Hawks,Carnuntum Legionaries,,
+2025-05-01,14:45,Football-Zentrum Ravelin,Carnuntum Legionaries,St. Pölten Invaders,,
+2025-05-01,15:45,Football-Zentrum Ravelin,Vienna Vikings,Carinthian Eagles,,
+2025-05-01,17:00,Football-Zentrum Ravelin,Vienna Vikings,St. Pölten Invaders,,
+2025-05-01,17:00,Football-Zentrum Ravelin,SG Mostviertel Bastards/Blue Hawks, Carinthian Eagles,,
+2025-05-31,10:00,Sarling,Münchendorf Badgers,Vienna Vipers,,
+2025-05-31,11:15,Sarling,St. Pölten Invaders,Münchendorf Badgers,,
+2025-05-31,11:15,Sarling,Vienna Vipers,Carnuntum Legionaries,,
+2025-05-31,12:30,Sarling,St. Pölten Invaders,SG Mostviertel Bastards/Blue Hawks,,
+2025-05-31,12:30,Sarling,Carinthian Eagles,Carnuntum Legionaries,,
+2025-05-31,13:45,Sarling,Vienna Knights,Münchendorf Badgers,,
+2025-05-31,13:45,Sarling,Vienna Vikings,Vienna Vipers,,
+2025-05-31,15:00,Sarling,Carnuntum Legionaries,SG Mostviertel Bastards/Blue Hawks,,
+2025-05-31,15:00,Sarling,St. Pölten Invaders,Carinthian Eagles,,
+2025-05-31,16:15,Sarling,SG Mostviertel Bastards/Blue Hawks,Vienna Knights,,
+2025-05-31,16:15,Sarling,Carinthian Eagles,Vienna Vikings,,
+2025-05-31,17:30,Sarling,Vienna Knights,Vienna Vikings,,
+2025-06-09,10:00,St. Pölten Invaders Field,SG Mostviertel Bastards/Blue Hawks,Münchendorf Badgers,,
+2025-06-09,11:15,St. Pölten Invaders Field,Münchendorf Badgers,Carnuntum Legionaries,,
+2025-06-09,11:15,St. Pölten Invaders Field,SG Mostviertel Bastards/Blue Hawks,Vienna Vikings,,
+2025-06-09,12:30,St. Pölten Invaders Field,Carinthian Eagles,Vienna Knights,,
+2025-06-09,12:30,St. Pölten Invaders Field,Vienna Vikings,Carnuntum Legionaries,,
+2025-06-09,13:45,St. Pölten Invaders Field,Münchendorf Badgers,St. Pölten Invaders,,
+2025-06-09,13:45,St. Pölten Invaders Field,Vienna Vipers,SG Mostviertel Bastards/Blue Hawks,,
+2025-06-09,15:00,St. Pölten Invaders Field,Carnuntum Legionaries,Carinthian Eagles,,
+2025-06-09,15:00,St. Pölten Invaders Field,Vienna Vikings,Vienna Knights,,
+2025-06-09,16:15,St. Pölten Invaders Field,Vienna Knights,St. Pölten Invaders,,
+2025-06-09,16:15,St. Pölten Invaders Field,Vienna Vipers,Carinthian Eagles,,
+2025-06-09,17:30,St. Pölten Invaders Field,St. Pölten Invaders,Vienna Vipers,,

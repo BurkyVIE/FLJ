@@ -3,7 +3,8 @@ library(tidyverse)
 
 # DATA ----
 data <- standings |> 
-  left_join(teams, by = "Team") |> 
+  filter(Saison == 2025, Stufe == "U13", Div == "D1") |> 
+  left_join(teams, by = c("Saison", "Stufe", "Div", "Team")) |> 
   mutate(Spiele = W - L,
          Punkte = PF - PG,
          Logo = paste0("logos/", Kurz, ".png"))
