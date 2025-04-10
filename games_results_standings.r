@@ -59,10 +59,16 @@ standings <- results |>
   pivot_wider(names_from = Ergebnis, values_from = one, names_expand = TRUE, values_fill = list(one = 0L)) |> 
   group_by(Saison, Stufe, Div, Team) |>
   summarise(across(c(PF, PG, W, L, T), ~sum(.)), .groups = "drop") |>
-  # ungroup() |> 
   mutate(Gs = W + L + T,
          WLT = case_when(T == 0 ~ paste0("(", W, "-", L, ")"),
                          TRUE ~ paste0("(", W, "-", L, "-", T, ")")),
          Pct = num((W + 1/2 * T) / Gs, digits = 3)) |> 
   relocate(Gs, .before = W) |> 
   arrange(desc(Pct), desc(PF-PG))
+
+## Vorteil ----
+vorteil <- results |>
+  group_by(Saison, Stufe, Div, Team, Gegner) |>
+  summarise(Spiele = n(), PF = sum(PF), PG = sum(PG), .groups = "drop") |>
+  filter(PF > PG) |>
+  reframe(.by = c(Saison, Stufe, Div, Team), Vort_ggü = list(Gegner))
