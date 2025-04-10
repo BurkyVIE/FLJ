@@ -30,15 +30,28 @@ data <- data_raw |> select(-(file:Liga)) |> unnest_longer(Data) |> unpack(Data)
 # )
 
 ## Teams ----
-team_suche <- c("Angels", "Dragons", "Pannonian", "Giants", "Indians", "Raiders", "Spartans", "Steelsharks",
-               "Badgers", "Bastards", "Carinthian", "Invaders", "Knights", "Legionaries", "Vikings", "Vipers")
-team_kurz <- c("Angels", "Dragons", "P.Eagles", "Giants", "Indians", "Raiders", "Spartans", "Steelsharks",
-               "Badgers", "Bastards", "C.Eagles", "Invaders", "Knights", "Legionaries", "Vikings", "Vipers")
-# teams <- unique(c(data_raw$Heim, data_raw$Gast))
+team <- tribble(~Suchwort, ~Kurz,
+               "Angels", "Angels",
+               "Dragons", "Dragons",
+               "Pann", "P.Eagles",
+               "Giants", "Giants",
+               "Indians", "Indians",
+               "Raiders", "Raiders",
+               "Spartans", "Spartans",
+               "Steelsharks", "Steelsharks",
+               "Badgers", "Badgers",
+               "SG Most", "Bastards",
+               "Carin", "C.Eagles",
+               "Invaders", "Invaders",
+               "Knights", "Knights",
+               "Legionaries", "Legionaries",
+               "Vikings", "Vikings",
+               "Vipers", "Vipers")
+
 teams <- data |> select(Saison, Stufe, Div, Heim) |> unique() |> rename(Team = Heim)
-he <- map_int(team_suche, ~which(str_detect(teams$Team, .)))
-teams <- tibble(teams[he,], Kurz = team_kurz)
-rm(team_suche, team_kurz, he)
+he <- map_int(team$Suchwort, ~which(str_detect(teams$Team, .)))
+teams <- tibble(teams[he,], Kurz = team$Kurz)
+rm(team, he)
 
 # OUTPUT ----
 ## Games ----
