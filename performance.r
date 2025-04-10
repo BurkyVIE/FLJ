@@ -1,8 +1,8 @@
 # LIBRARIES ----
 library(tidyverse)
 
-# DATA ----
-data <- standings |> 
+# dat ----
+dat <- standings |> 
   filter(Saison == 2025, Stufe == "U13", Div == "D1") |> 
   left_join(teams, by = c("Saison", "Stufe", "Div", "Team")) |> 
   mutate(Spiele = W - L,
@@ -10,7 +10,7 @@ data <- standings |>
          Logo = paste0("logos/", Kurz, ".png"))
   
 # plot ----
-ggplot(data) +
+ggplot(dat) +
   aes(x = Punkte, y = Spiele) +
   geom_hline(yintercept = 0, color = "orangered", linewidth = 1) +
   geom_vline(xintercept = 0, color = "orangered", linewidth = 1) +
@@ -19,13 +19,13 @@ ggplot(data) +
   #                           box.padding = 1.25, label.padding = unit(.2, "lines"), point.padding = .25,
   #                           max.overlaps = 8,
   #                           size = 4) +
-  # ggimage::geom_image(data, inherit.aes = TRUE, image = "fb_32.png", size = .03) +
+  # ggimage::geom_image(dat, inherit.aes = TRUE, image = "fb_32.png", size = .03) +
   # ODER
   ggrepel::geom_label_repel(mapping = aes(label = paste(Kurz, WLT, sep = "\n")), segment.linetype = 2,
                             box.padding = 2.25, label.padding = unit(.2, "lines"), point.padding = .25,
                             max.overlaps = 8,
                             color = "grey50", size = 3) +
-  ggimage::geom_image(data, inherit.aes = TRUE, mapping = aes(image = Logo), size = .07) +
+  ggimage::geom_image(dat, inherit.aes = TRUE, mapping = aes(image = Logo), size = .07) +
   # ENDE
   # scale_x_continuous(name = "Punktedifferenz", breaks = function(x) seq(from = floor(x[1]/100)*100, to = ceiling(x[2]/100)*100, by = 100)) +
   scale_x_continuous(name = "Punktedifferenz") +
@@ -41,4 +41,4 @@ ggplot(data) +
 windows(16, 16)
 plot(p)
 
-rm(data, p)
+rm(dat, p)
