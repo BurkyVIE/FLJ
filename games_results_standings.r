@@ -31,22 +31,22 @@ data <- data_raw |> select(-(file:Liga)) |> unnest_longer(Data) |> unpack(Data)
 
 ## Teams ----
 team <- tribble(~Suchwort, ~Kurz,
-               "Angels", "Angels",
-               "Dragons", "Dragons",
-               "Pann", "P.Eagles",
-               "Giants", "Giants",
-               "Indians", "Indians",
-               "Raiders", "Raiders",
-               "Spartans", "Spartans",
-               "Steelsharks", "Steelsharks",
-               "Badgers", "Badgers",
-               "SG Most", "Bastards",
-               "Carin", "C.Eagles",
-               "Invaders", "Invaders",
-               "Knights", "Knights",
-               "Legionaries", "Legionaries",
-               "Vikings", "Vikings",
-               "Vipers", "Vipers")
+                "Angels", "Angels",
+                "Dragons", "Dragons",
+                "Pann", "P.Eagles",
+                "Giants", "Giants",
+                "Indians", "Indians",
+                "Raiders", "Raiders",
+                "Spartans", "Spartans",
+                "Steelsharks", "Steelsharks",
+                "Badgers", "Badgers",
+                "SG Most", "Bastards",
+                "Carin", "C.Eagles",
+                "Invaders", "Invaders",
+                "Knights", "Knights",
+                "Legionaries", "Legionaries",
+                "Vikings", "Vikings",
+                "Vipers", "Vipers")
 
 teams <- data |> select(Saison, Stufe, Div, Heim) |> unique() |> rename(Team = Heim)
 he <- map_int(team$Suchwort, ~which(str_detect(teams$Team, .)))
