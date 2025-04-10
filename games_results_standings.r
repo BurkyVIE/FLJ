@@ -65,4 +65,4 @@ standings <- results |>
                          TRUE ~ paste0("(", W, "-", L, "-", T, ")")),
          Pct = num((W + 1/2 * T) / Gs, digits = 3)) |> 
   relocate(Gs, .before = W) |> 
-  arrange(desc(Pct), desc(PF), PG)
+  arrange(desc(Pct), desc(PF-PG))
