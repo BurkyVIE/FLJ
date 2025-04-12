@@ -11,15 +11,15 @@ Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
 2025-04-06,16:15,Sportplatz Schwadorf,Vienna Knights,Carnuntum Legionaries,6,26
 2025-04-06,16:15,Sportplatz Schwadorf,SG Mostviertel Bastards/Blue Hawks,St. Pölten Invaders,0,48
 2025-04-06,17:00,Sportplatz Schwadorf,St. Pölten Invaders,Carnuntum Legionaries,7,0
-2025-04-12,10:00,Schwechat,Carnuntum Legionaries,Vienna Vipers,,
-2025-04-12,10:00,Schwechat,St. Pölten Invaders,Vienna Knights,,
-2025-04-12,11:15,Schwechat,Münchendorf Badgers,Vienna Vikings,,
-2025-04-12,11:15,Schwechat,Carnuntum Legionaries,Vienna Knights,,
-2025-04-12,12:30,Schwechat,Vienna Vipers,Münchendorf Badgers,,
-2025-04-12,12:30,Schwechat,Carinthian Eagles,St. Pölten Invaders,,
-2025-04-12,13:45,Schwechat,Vienna Vipers,Vienna Knights,,
+2025-04-12,10:00,Schwechat,Carnuntum Legionaries,Vienna Vipers,12,7
+2025-04-12,10:00,Schwechat,St. Pölten Invaders,Vienna Knights,34,6
+2025-04-12,11:15,Schwechat,Münchendorf Badgers,Vienna Vikings,0,35
+2025-04-12,11:15,Schwechat,Carnuntum Legionaries,Vienna Knights,34,0
+2025-04-12,12:30,Schwechat,Vienna Vipers,Münchendorf Badgers,35,0
+2025-04-12,12:30,Schwechat,Carinthian Eagles,St. Pölten Invaders,20,34
+2025-04-12,13:45,Schwechat,Vienna Vipers,Vienna Knights,32,7
 2025-04-12,13:45,Schwechat,St. Pölten Invaders,Vienna Vikings,,
-2025-04-12,15:00,Schwechat,Münchendorf Badgers,Carinthian Eagles,,
+2025-04-12,15:00,Schwechat,Münchendorf Badgers,Carinthian Eagles,0,35
 2025-04-12,15:00,Schwechat,Vienna Vikings,SG Mostviertel Bastards/Blue Hawks,,
 2025-04-12,16:15,Schwechat,Carinthian Eagles,SG Mostviertel Bastards/Blue Hawks,,
 2025-05-01,12:00,Football-Zentrum Ravelin,Carnuntum Legionaries,Münchendorf Badgers,,
