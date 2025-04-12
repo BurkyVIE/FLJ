@@ -26,8 +26,8 @@ Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
 2025-04-12,11:15,ASKÖ Stadion Eggenberg,Danube Dragons,Klosterneuburg Indians,,
 2025-04-12,11:15,ASKÖ Stadion Eggenberg,Weinviertel Spartans,Steelsharks Traun,,
 2025-04-12,12:30,ASKÖ Stadion Eggenberg,Klosterneuburg Indians, Pannonian Eagles,,
-2025-04-12,12:30,ASKÖ Stadion Eggenberg,Dark Angels,Thalheim Graz Giants,,
-2025-04-12,13:45,ASKÖ Stadion Eggenberg,Dark Angels,Steelsharks Traun,,
+2025-04-12,12:30,ASKÖ Stadion Eggenberg,Dark Angels,Thalheim Graz Giants,26,19
+2025-04-12,13:45,ASKÖ Stadion Eggenberg,Dark Angels,Steelsharks Traun,55,6
 2025-04-12,13:45,ASKÖ Stadion Eggenberg,Swarco Raiders,Weinviertel Spartans,,
 2025-04-12,15:00,ASKÖ Stadion Eggenberg,Steelsharks Traun,Thalheim Graz Giants,,
 2025-04-12,15:00,ASKÖ Stadion Eggenberg,Pannonian Eagles,Klosterneuburg Indians,,
