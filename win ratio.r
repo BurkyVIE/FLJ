@@ -3,7 +3,7 @@ library(tidyverse)
 
 # dat ----
 dat <- standings |> 
-  filter(Saison == 2025, Stufe == "U13", Div == "D2") |> 
+  filter(Saison == 2025, Stufe == "U13", Div == "D1") |> 
   left_join(teams, by = c("Saison", "Stufe", "Div", "Team")) |> 
   mutate(EWR = 1 / (1 + (PG / PF) ** 2.37),
          Delta = (as.numeric(Pct) - EWR))
