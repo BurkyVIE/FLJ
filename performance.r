@@ -23,7 +23,7 @@ ggplot(dat) +
   # ODER
   ggrepel::geom_label_repel(mapping = aes(label = paste(Kurz, WLT, sep = "\n")), segment.linetype = 2,
                             box.padding = 2.25, label.padding = unit(.2, "lines"), point.padding = .25,
-                            max.overlaps = 8,
+                            max.overlaps = 16,
                             color = "grey50", size = 3) +
   ggimage::geom_image(dat, inherit.aes = TRUE, mapping = aes(image = Logo), size = .07) +
   # ENDE
