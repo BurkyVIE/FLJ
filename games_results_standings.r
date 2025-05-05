@@ -71,7 +71,7 @@ results <- bind_rows(rename(games, Team = Heim, Gegner = Gast, PF = P_H, PG = P_
          P35G = min(PG, PF + 35)) |> 
   relocate(Heim, .after = Team) |> 
   relocate(Ergebnis, .after = last_col()) |> 
-  arrange(Datum, Kickoff)
+  arrange(Datum, Kickoff, SpielID, desc(Heim))
 
 ## Standings ----
 standings <- results |> 
