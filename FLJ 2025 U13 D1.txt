@@ -42,7 +42,7 @@ Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
 2025-05-04,13:45,Baumgarten,Weinviertel Spartans,Pannonian Eagles,8,6
 2025-05-04,13:45,Baumgarten,Swarco Raiders,Steelsharks Traun,26,0
 2025-05-04,15:00,Baumgarten,Thalheim Graz Giants,Danube Dragons,25,12
-2025-05-04,16:15,Baumgarten,Thalheim Graz Giants,Pannonian Eagles,,
+2025-05-04,16:15,Baumgarten,Thalheim Graz Giants,Pannonian Eagles,37,7
 2025-06-09,10:00,Sportzentrum Traun,Dark Angels,Weinviertel Spartans,,
 2025-06-09,10:00,Sportzentrum Traun,Klosterneuburg Indians,Thalheim Graz Giants,,
 2025-06-09,11:15,Sportzentrum Traun,Klosterneuburg Indians,Weinviertel Spartans,,
