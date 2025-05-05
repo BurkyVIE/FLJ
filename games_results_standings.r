@@ -63,7 +63,10 @@ results <- bind_rows(rename(games, Team = Heim, Gegner = Gast, PF = P_H, PG = P_
   mutate(Ergebnis = factor(case_when(PF > PG ~ "W",
                                      PF < PG ~ "L",
                                      TRUE ~ "T"),
-                           levels = c("W", "L", "T"))) |> 
+                           levels = c("W", "L", "T"))) |>
+  rowwise() |> 
+  mutate(P35F = min(PF, PG+35),
+         P35G = min(PG, PF+35)) |> 
   arrange(Datum, Kickoff)
 
 ## Standings ----
@@ -71,17 +74,17 @@ standings <- results |>
   mutate(one = 1L) |> 
   pivot_wider(names_from = Ergebnis, values_from = one, names_expand = TRUE, values_fill = list(one = 0L)) |> 
   group_by(Saison, Stufe, Div, Team) |>
-  summarise(across(c(PF, PG, W, L, T), ~sum(.)), .groups = "drop") |>
+  summarise(across(c(P35F, P35G, PF, PG, W, L, T), ~sum(.)), .groups = "drop") |>
   mutate(Gs = W + L + T,
          WLT = case_when(T == 0 ~ paste0("(", W, "-", L, ")"),
                          TRUE ~ paste0("(", W, "-", L, "-", T, ")")),
          Pct = num((W + 1/2 * T) / Gs, digits = 3)) |> 
   relocate(Gs, .before = W) |> 
-  arrange(desc(Pct), desc(PF-PG))
+  arrange(desc(Pct), desc(P35F-P35G))
 
 ## Vorteil ----
 vorteil <- results |>
   group_by(Saison, Stufe, Div, Team, Gegner) |>
-  summarise(Spiele = n(), PF = sum(PF), PG = sum(PG), .groups = "drop") |>
-  filter(PF > PG) |>
+  summarise(Spiele = n(), P35F = sum(P35F), P35G = sum(P35G), .groups = "drop") |>
+  filter(P35F > P35G) |>
   reframe(.by = c(Saison, Stufe, Div, Team), Vort_ggü = list(Gegner))
