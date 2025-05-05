@@ -58,15 +58,19 @@ rm(team, he)
 games <- filter(data, !is.na(P_H) | !is.na(P_G))
 
 ## Results ----
-results <- bind_rows(rename(games, Team = Heim, Gegner = Gast, PF = P_H, PG = P_G),
-                     rename(games, Team = Gast, Gegner = Heim, PF = P_G, PG = P_H)) |> 
+results <- bind_rows(rename(games, Team = Heim, Gegner = Gast, PF = P_H, PG = P_G) |> 
+                       bind_cols(Heim = TRUE),
+                     rename(games, Team = Gast, Gegner = Heim, PF = P_G, PG = P_H) |> 
+                       bind_cols(Heim = FALSE)) |> 
   mutate(Ergebnis = factor(case_when(PF > PG ~ "W",
                                      PF < PG ~ "L",
                                      TRUE ~ "T"),
                            levels = c("W", "L", "T"))) |>
   rowwise() |> 
-  mutate(P35F = min(PF, PG+35),
-         P35G = min(PG, PF+35)) |> 
+  mutate(P35F = min(PF, PG + 35),
+         P35G = min(PG, PF + 35)) |> 
+  relocate(Heim, .after = Team) |> 
+  relocate(Ergebnis, .after = last_col()) |> 
   arrange(Datum, Kickoff)
 
 ## Standings ----
