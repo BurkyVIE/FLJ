@@ -15,7 +15,7 @@ ggplot(dat) +
   # geom_boxplot(color = "grey50", linewidth = 1, alpha = .67) +
   ggridges::geom_density_ridges(rel_min_height = .01, scale = .8, quantile_lines = TRUE, quantiles = 2,
                                 color = "#945d4f", fill = "beige", lwd = 1, alpha = .67) +
-  geom_point(size = 2) +
+  # geom_point(size = 2) +
   ggimage::geom_image(inherit.aes = TRUE, image = "fb_32.png", size = .025) +
   scale_x_continuous(name = "Punktedifferenz pro Spiel", expand = c(0, -21), breaks = 35 * (-2:2)) +
   scale_y_discrete(name = NULL) +
