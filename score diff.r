@@ -7,6 +7,8 @@ dat <- results |>
   left_join(teams, by = c("Saison", "Stufe", "Div", "Team")) |>
   mutate(Diff = PF - PG)
 
+## aus all scores könnte man Marker für doppelte Ergebnisse übernehmen
+
 # PLOT ----
 ggplot(dat) +
   geom_vline(xintercept = 0, color = "orangered", linewidth = 1, lty = "dashed") +
