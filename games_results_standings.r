@@ -3,7 +3,7 @@ library(tidyverse)
 
 # DATA ----
 ## Import ----
-data_raw <- dir()[str_detect(dir(),pattern = "FLJ.*\\.txt")] |>
+data_raw <- dir()[str_detect(dir(),pattern = "Spiele.txt")] |>
   enframe(name = NULL, value = "file") |>
   separate(file, into = c("Liga", "Saison", "Stufe", "Div"), remove = FALSE, extra = "drop") |>
   rowwise() |> 
