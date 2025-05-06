@@ -5,7 +5,11 @@ library(tidyverse)
 dat <- results |> 
   filter(Saison == 2025, Stufe == "U13", Div == "D1") |> 
   left_join(teams, by = c("Saison", "Stufe", "Div", "Team")) |>
-  mutate(Diff = PF - PG)
+  mutate(Diff = PF - PG) |>
+  group_by(Kurz, Diff) |>
+  summarise(n = n(), .groups = "drop") |> 
+  mutate(n = case_when(n == 1 ~ NA,
+                       TRUE ~ n))
 
 ## aus all scores könnte man Marker für doppelte Ergebnisse übernehmen
 
@@ -19,6 +23,7 @@ ggplot(dat) +
                                 color = "#945d4f", fill = "beige", lwd = 1, alpha = .67) +
   # geom_point(size = 2) +
   ggimage::geom_image(inherit.aes = TRUE, image = "fb_32.png", size = .025) +
+  ggrepel::geom_text_repel(aes(label = n), na.rm = TRUE, box.padding = 1, point.padding = 0, nudge.x = 7, nudge.y = 7, size = 3, color = "grey50") +
   scale_x_continuous(name = "Punktedifferenz pro Spiel", expand = c(0, -21), breaks = 35 * (-2:2)) +
   scale_y_discrete(name = NULL) +
   labs(title = "Verteilung der Punktedifferenzen pro Team", 
