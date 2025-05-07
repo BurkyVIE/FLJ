@@ -35,4 +35,4 @@ ggplot(dat) +
 windows(16, 16)
 plot(p)
 
-rm(p)
+rm(dat, p)
