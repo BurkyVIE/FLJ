@@ -4,7 +4,6 @@ No,Name,Jahrgang
 36,BURKHARDT Henning, 2013
 5,BÖHM Julia, 2012
 18,FERCHLAND Maximilian, 2012
-00,FERCHLAND Matthias, 2014
 40,FLIEDL Niklas, 2012
 9,GÖTTLICHER Nelio, 2013
 1,HAYDTER Steve, 2013
@@ -20,4 +19,6 @@ No,Name,Jahrgang
 21,FLIEDL Julian, 2012
 8,PERRY Boston, 2012
 3,HALGOSOVA Maria, 2013
-80,MATTHAI Louis, 2014
+8017,MATTHAI Luis, 2014
+23,KUPSCH Jonathan, 2014
+22,TOIFL Stefan, 2014

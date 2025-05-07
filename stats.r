@@ -16,5 +16,7 @@ stats |>
             Sacks = sum(Sack, na.rm = TRUE),
             Safeties = sum(Safety, na.rm = TRUE),
             .groups = "drop") |> 
-  mutate(PullspG = Pulls/Games) |> 
-  arrange(desc(PullspG), No)
+  # mutate(PullspG = Pulls/Games) |> 
+  # arrange(desc(PullspG), No)
+  gt::gt() |>
+  gt::tab_header(title = "2025 FLJ U13", subtitle = "Dark Angels Defense")
