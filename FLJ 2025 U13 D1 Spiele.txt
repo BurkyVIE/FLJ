@@ -42,16 +42,16 @@ SpielID,Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
 2513141,2025-05-04,13:45,Baumgarten,Weinviertel Spartans,Pannonian Eagles,8,6
 2513142,2025-05-04,13:45,Baumgarten,Swarco Raiders,Steelsharks Traun,26,0
 2513143,2025-05-04,15:00,Baumgarten,Thalheim Graz Giants,Danube Dragons,25,12
-2513144,2025-05-04,16:15,Baumgarten,Thalheim Graz Giants,Pannonian Eagles,37,7
-NA,2025-06-09,10:00,Sportzentrum Traun,Dark Angels,Weinviertel Spartans,,
-NA,2025-06-09,10:00,Sportzentrum Traun,Klosterneuburg Indians,Thalheim Graz Giants,,
-NA,2025-06-09,11:15,Sportzentrum Traun,Klosterneuburg Indians,Weinviertel Spartans,,
-NA,2025-06-09,11:15,Sportzentrum Traun,Thalheim Graz Giants,Dark Angels,,
-NA,2025-06-09,12:30,Sportzentrum Traun,Danube Dragons,Steelsharks Traun,,
-NA,2025-06-09,12:30,Sportzentrum Traun,Swarco Raiders,Pannonian Eagles,,
-NA,2025-06-09,13:45,Sportzentrum Traun,Klosterneuburg Indians,Dark Angels,,
-NA,2025-06-09,13:45,Sportzentrum Traun,Thalheim Graz Giants,Weinviertel Spartans,,
-NA,2025-06-09,15:00,Sportzentrum Traun,Steelsharks Traun,Swarco Raiders,,
-NA,2025-06-09,15:00,Sportzentrum Traun,Pannonian Eagles,Danube Dragons,,
-NA,2025-06-09,16:15,Sportzentrum Traun,Pannonian Eagles,Steelsharks Traun,,
-NA,2025-06-09,16:15,Sportzentrum Traun,Swarco Raiders,Danube Dragons,,
+2513145,2025-05-04,16:15,Baumgarten,Thalheim Graz Giants,Pannonian Eagles,37,7
+2513147,2025-06-09,10:00,Sportzentrum Traun,Dark Angels,Weinviertel Spartans,39,0
+2513148,2025-06-09,10:00,Sportzentrum Traun,Klosterneuburg Indians,Thalheim Graz Giants,26,6
+2513149,2025-06-09,11:15,Sportzentrum Traun,Klosterneuburg Indians,Weinviertel Spartans,32,0
+2513150,2025-06-09,11:15,Sportzentrum Traun,Thalheim Graz Giants,Dark Angels,6,36
+2513151,2025-06-09,12:30,Sportzentrum Traun,Danube Dragons,Steelsharks Traun,14,12
+2513152,2025-06-09,12:30,Sportzentrum Traun,Swarco Raiders,Pannonian Eagles,20,0
+2513153,2025-06-09,13:45,Sportzentrum Traun,Klosterneuburg Indians,Dark Angels,20,20
+2513154,2025-06-09,13:45,Sportzentrum Traun,Thalheim Graz Giants,Weinviertel Spartans,41,0
+2513155,2025-06-09,15:00,Sportzentrum Traun,Steelsharks Traun,Swarco Raiders,0,52
+2513156,2025-06-09,15:00,Sportzentrum Traun,Pannonian Eagles,Danube Dragons,7,13
+2513157,2025-06-09,16:15,Sportzentrum Traun,Pannonian Eagles,Steelsharks Traun,12,20
+2513158,2025-06-09,16:15,Sportzentrum Traun,Swarco Raiders,Danube Dragons,20,19
