@@ -31,27 +31,27 @@ SpielID,Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
 2513230,2025-05-01,15:45,Football-Zentrum Ravelin,Carnuntum Legionaries,St. Pölten Invaders,0,26
 2513231,2025-05-01,17:00,Football-Zentrum Ravelin,Vienna Vikings,St. Pölten Invaders,14,28
 2513232,2025-05-01,17:00,Football-Zentrum Ravelin,SG Mostviertel Bastards/Blue Hawks, Carinthian Eagles,13,53
-NA,2025-05-31,10:00,Sarling,Münchendorf Badgers,Vienna Vipers,,
-NA,2025-05-31,11:15,Sarling,St. Pölten Invaders,Münchendorf Badgers,,
-NA,2025-05-31,11:15,Sarling,Vienna Vipers,Carnuntum Legionaries,,
-NA,2025-05-31,12:30,Sarling,St. Pölten Invaders,SG Mostviertel Bastards/Blue Hawks,,
-NA,2025-05-31,12:30,Sarling,Carinthian Eagles,Carnuntum Legionaries,,
-NA,2025-05-31,13:45,Sarling,Vienna Knights,Münchendorf Badgers,,
-NA,2025-05-31,13:45,Sarling,Vienna Vikings,Vienna Vipers,,
-NA,2025-05-31,15:00,Sarling,Carnuntum Legionaries,SG Mostviertel Bastards/Blue Hawks,,
-NA,2025-05-31,15:00,Sarling,St. Pölten Invaders,Carinthian Eagles,,
-NA,2025-05-31,16:15,Sarling,SG Mostviertel Bastards/Blue Hawks,Vienna Knights,,
-NA,2025-05-31,16:15,Sarling,Carinthian Eagles,Vienna Vikings,,
-NA,2025-05-31,17:30,Sarling,Vienna Knights,Vienna Vikings,,
-NA,2025-06-09,10:00,St. Pölten Invaders Field,SG Mostviertel Bastards/Blue Hawks,Münchendorf Badgers,,
-NA,2025-06-09,11:15,St. Pölten Invaders Field,Münchendorf Badgers,Carnuntum Legionaries,,
-NA,2025-06-09,11:15,St. Pölten Invaders Field,SG Mostviertel Bastards/Blue Hawks,Vienna Vikings,,
-NA,2025-06-09,12:30,St. Pölten Invaders Field,Carinthian Eagles,Vienna Knights,,
-NA,2025-06-09,12:30,St. Pölten Invaders Field,Vienna Vikings,Carnuntum Legionaries,,
-NA,2025-06-09,13:45,St. Pölten Invaders Field,Münchendorf Badgers,St. Pölten Invaders,,
-NA,2025-06-09,13:45,St. Pölten Invaders Field,Vienna Vipers,SG Mostviertel Bastards/Blue Hawks,,
-NA,2025-06-09,15:00,St. Pölten Invaders Field,Carnuntum Legionaries,Carinthian Eagles,,
-NA,2025-06-09,15:00,St. Pölten Invaders Field,Vienna Vikings,Vienna Knights,,
-NA,2025-06-09,16:15,St. Pölten Invaders Field,Vienna Knights,St. Pölten Invaders,,
-NA,2025-06-09,16:15,St. Pölten Invaders Field,Vienna Vipers,Carinthian Eagles,,
-NA,2025-06-09,17:30,St. Pölten Invaders Field,St. Pölten Invaders,Vienna Vipers,,
+2513233,2025-05-31,10:00,Sarling,Münchendorf Badgers,Vienna Vipers,0,41
+2513234,2025-05-31,11:15,Sarling,St. Pölten Invaders,Münchendorf Badgers,62,0
+2513235,2025-05-31,11:15,Sarling,Vienna Vipers,Carnuntum Legionaries,7,19
+2513236,2025-05-31,12:30,Sarling,St. Pölten Invaders,SG Mostviertel Bastards/Blue Hawks,42,14
+2513237,2025-05-31,12:30,Sarling,Carinthian Eagles,Carnuntum Legionaries,25,20
+2513238,2025-05-31,13:45,Sarling,Vienna Knights,Münchendorf Badgers,20,7
+2513239,2025-05-31,13:45,Sarling,Vienna Vikings,Vienna Vipers,28,21
+2513240,2025-05-31,15:00,Sarling,Carnuntum Legionaries,SG Mostviertel Bastards/Blue Hawks,35,0
+2513241,2025-05-31,15:00,Sarling,St. Pölten Invaders,Carinthian Eagles,20,8
+2513242,2025-05-31,16:15,Sarling,SG Mostviertel Bastards/Blue Hawks,Vienna Knights,32,33
+2513243,2025-05-31,16:15,Sarling,Carinthian Eagles,Vienna Vikings,39,32
+2513244,2025-05-31,17:30,Sarling,Vienna Knights,Vienna Vikings,13,41
+2513245,2025-06-09,10:00,St. Pölten Invaders Field,SG Mostviertel Bastards/Blue Hawks,Münchendorf Badgers,14,40
+2513246,2025-06-09,11:15,St. Pölten Invaders Field,Münchendorf Badgers,Carnuntum Legionaries,0,39
+2513247,2025-06-09,11:15,St. Pölten Invaders Field,SG Mostviertel Bastards/Blue Hawks,Vienna Vikings,19,27
+2513248,2025-06-09,12:30,St. Pölten Invaders Field,Carinthian Eagles,Vienna Knights,33,7
+2513249,2025-06-09,12:30,St. Pölten Invaders Field,Vienna Vikings,Carnuntum Legionaries,13,34
+2513250,2025-06-09,13:45,St. Pölten Invaders Field,Münchendorf Badgers,St. Pölten Invaders,12,40
+2513251,2025-06-09,13:45,St. Pölten Invaders Field,Vienna Vipers,SG Mostviertel Bastards/Blue Hawks,20,19
+2513252,2025-06-09,15:00,St. Pölten Invaders Field,Carnuntum Legionaries,Carinthian Eagles,13,39
+2513253,2025-06-09,15:00,St. Pölten Invaders Field,Vienna Vikings,Vienna Knights,28,19
+2513254,2025-06-09,16:15,St. Pölten Invaders Field,Vienna Knights,St. Pölten Invaders,0,40
+2513255,2025-06-09,16:15,St. Pölten Invaders Field,Vienna Vipers,Carinthian Eagles,20,24
+2513256,2025-06-09,17:30,St. Pölten Invaders Field,St. Pölten Invaders,Vienna Vipers,33,14
