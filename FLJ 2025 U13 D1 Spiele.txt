@@ -45,7 +45,7 @@ SpielID,Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
 2513145,2025-05-04,16:15,Baumgarten,Thalheim Graz Giants,Pannonian Eagles,37,7
 2513147,2025-06-09,10:00,Sportzentrum Traun,Dark Angels,Weinviertel Spartans,39,0
 2513148,2025-06-09,10:00,Sportzentrum Traun,Klosterneuburg Indians,Thalheim Graz Giants,26,6
-2513149,2025-06-09,11:15,Sportzentrum Traun,Klosterneuburg Indians,Weinviertel Spartans,32,0
+2513149,2025-06-09,11:15,Sportzentrum Traun,Klosterneuburg Indians,Weinviertel Spartans,31,0
 2513150,2025-06-09,11:15,Sportzentrum Traun,Thalheim Graz Giants,Dark Angels,6,36
 2513151,2025-06-09,12:30,Sportzentrum Traun,Danube Dragons,Steelsharks Traun,14,12
 2513152,2025-06-09,12:30,Sportzentrum Traun,Swarco Raiders,Pannonian Eagles,20,0
