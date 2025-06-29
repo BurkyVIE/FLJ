@@ -9,7 +9,8 @@ data_raw <- dir()[str_detect(dir(),pattern = "Spiele.txt")] |>
   rowwise() |> 
   mutate(Data = map(.x = file,
                     .f = ~read_csv(file, lazy = FALSE,
-                        col_types = cols(Datum = col_date(),
+                        col_types = cols(SpielID = col_character(),
+                                         Datum = col_date(),
                                          Kickoff = col_time(),
                                          Ort = col_character(),
                                          Heim = col_character(),
@@ -48,7 +49,7 @@ team <- tribble(~Suchwort, ~Kurz,
                 "Vikings", "Vikings",
                 "Vipers", "Vipers")
 
-teams <- data |> select(Saison, Stufe, Div, Heim) |> unique() |> rename(Team = Heim)
+teams <- data |> select(Saison, Stufe, Heim) |> unique() |> rename(Team = Heim)
 he <- map_int(team$Suchwort, ~which(str_detect(teams$Team, .)))
 teams <- tibble(teams[he,], Kurz = team$Kurz)
 rm(team, he)
