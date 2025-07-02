@@ -1,0 +1,7 @@
+SpielID,Datum,Kickoff,Ort,Heim,Gast,P_H,P_G
+{WiC1}_1,2025-06-29,10:00,Sportzentrum Landskron,Dark Angels,Carnuntum Legionaries,47,20
+{WiC2}_1,2025-06-29,10:00,Sportzentrum Landskron,Carinthian Eagles,Swarco Raiders,12,21
+{SF1}_1,2025-06-29,11:10,Sportzentrum Landskron,St. Pölten Invaders,Dark Angels,19,13
+{SF2}_1,2025-06-29,11:10,Sportzentrum Landskron,Klosterneuburg Indians,Swarco Raiders,21,6
+{P3}_1,2025-06-29,12:20,Sportzentrum Landskron,Dark Angels,Swarco Raiders,34,12
+{FIN1}_1,2025-06-29,13:30,Sportzentrum Landskron,St. Pölten Invaders,Klosterneuburg Indians,14,35
